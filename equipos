@@ -1,0 +1,47 @@
+db.equipos.insertMany([
+  {
+    nombre: "FC Barcelona",
+    pais: "España",
+    jugadores: [
+      ObjectId("id_jugador_1"),
+      ObjectId("id_jugador_2"),
+      ObjectId("id_jugador_3")
+    ]
+  },
+  {
+    nombre: "Real Madrid CF",
+    pais: "España",
+    jugadores: [
+      ObjectId("id_jugador_4"),
+      ObjectId("id_jugador_5"),
+      ObjectId("id_jugador_6")
+    ]
+  },
+  {
+    nombre: "Paris Saint-Germain",
+    pais: "Francia",
+    jugadores: [
+      ObjectId("id_jugador_7"),
+      ObjectId("id_jugador_8"),
+      ObjectId("id_jugador_9")
+    ]
+  },
+  {
+    nombre: "Manchester City",
+    pais: "Inglaterra",
+    jugadores: [
+      ObjectId("id_jugador_10"),
+      ObjectId("id_jugador_11"),
+      ObjectId("id_jugador_12")
+    ]
+  },
+  {
+    nombre: "FC Bayern München",
+    pais: "Alemania",
+    jugadores: [
+      ObjectId("id_jugador_13"),
+      ObjectId("id_jugador_14"),
+      ObjectId("id_jugador_15")
+    ]
+  }
+]);
