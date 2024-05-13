@@ -1,0 +1,32 @@
+db.deportistas.insertMany([
+  {
+    nombre: "Lionel Messi",
+    edad: 34,
+    posicion: "Delantero",
+    nacionalidad: "Argentina"
+  },
+  {
+    nombre: "Cristiano Ronaldo",
+    edad: 37,
+    posicion: "Delantero",
+    nacionalidad: "Portugal"
+  },
+  {
+    nombre: "Neymar Jr",
+    edad: 30,
+    posicion: "Delantero",
+    nacionalidad: "Brasil"
+  },
+  {
+    nombre: "Kevin De Bruyne",
+    edad: 30,
+    posicion: "Centrocampista",
+    nacionalidad: "Bélgica"
+  },
+  {
+    nombre: "Virgil van Dijk",
+    edad: 30,
+    posicion: "Defensa",
+    nacionalidad: "Países Bajos"
+  }
+]);
