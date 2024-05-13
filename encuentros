@@ -1,0 +1,37 @@
+db.encuentros.insertMany([
+  {
+    equipo_local: ObjectId("id_equipo_1"),
+    equipo_visitante: ObjectId("id_equipo_2"),
+    fecha: new Date("2024-05-12T20:00:00Z"),
+    lugar: "Estadio Camp Nou",
+    arbitro: ObjectId("id_arbitro_1")
+  },
+  {
+    equipo_local: ObjectId("id_equipo_3"),
+    equipo_visitante: ObjectId("id_equipo_4"),
+    fecha: new Date("2024-05-13T18:30:00Z"),
+    lugar: "Parc des Princes",
+    arbitro: ObjectId("id_arbitro_2")
+  },
+  {
+    equipo_local: ObjectId("id_equipo_5"),
+    equipo_visitante: ObjectId("id_equipo_1"),
+    fecha: new Date("2024-05-14T19:45:00Z"),
+    lugar: "Allianz Arena",
+    arbitro: ObjectId("id_arbitro_3")
+  },
+  {
+    equipo_local: ObjectId("id_equipo_2"),
+    equipo_visitante: ObjectId("id_equipo_3"),
+    fecha: new Date("2024-05-15T17:00:00Z"),
+    lugar: "Santiago Bernabéu",
+    arbitro: ObjectId("id_arbitro_4")
+  },
+  {
+    equipo_local: ObjectId("id_equipo_4"),
+    equipo_visitante: ObjectId("id_equipo_5"),
+    fecha: new Date("2024-05-16T19:30:00Z"),
+    lugar: "Etihad Stadium",
+    arbitro: ObjectId("id_arbitro_5")
+  }
+]);
