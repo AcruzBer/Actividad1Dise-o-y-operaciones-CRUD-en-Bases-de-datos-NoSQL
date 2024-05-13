@@ -1,0 +1,22 @@
+db.entrenadores.insertMany([
+  {
+    nombre: "Ronald Koeman",
+    equipo: ObjectId("id_equipo_1")
+  },
+  {
+    nombre: "Zinedine Zidane",
+    equipo: ObjectId("id_equipo_2")
+  },
+  {
+    nombre: "Mauricio Pochettino",
+    equipo: ObjectId("id_equipo_3")
+  },
+  {
+    nombre: "Pep Guardiola",
+    equipo: ObjectId("id_equipo_4")
+  },
+  {
+    nombre: "Hans-Dieter Flick",
+    equipo: ObjectId("id_equipo_5")
+  }
+]);
