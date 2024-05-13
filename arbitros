@@ -1,0 +1,22 @@
+db.arbitros.insertMany([
+  {
+    nombre: "Howard Webb",
+    nacionalidad: "Inglaterra"
+  },
+  {
+    nombre: "Felix Brych",
+    nacionalidad: "Alemania"
+  },
+  {
+    nombre: "Björn Kuipers",
+    nacionalidad: "Países Bajos"
+  },
+  {
+    nombre: "Cüneyt Çakır",
+    nacionalidad: "Turquía"
+  },
+  {
+    nombre: "Nestor Pitana",
+    nacionalidad: "Argentina"
+  }
+]);
